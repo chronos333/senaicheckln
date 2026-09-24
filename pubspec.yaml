@@ -1,0 +1,29 @@
+name: senaicheckln
+description: "Registro de ponto e diário de campo com foto, GPS e SQLite."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.2.3
+  geolocator: ^14.0.3
+  permission_handler: ^12.0.1
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  url_launcher: ^6.3.2
+  audioplayers: ^6.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/confirmacao.wav
